@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  .consigna h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .redes-sociales {
+    display: flex;
+  }
+  
+  .redes-sociales a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: white;
+  }
+  
+  .redes-sociales a:hover {
+    background-color: #333;
+  }
+  
+  .redes-sociales a i {
+    font-size: 20px;
+  }
