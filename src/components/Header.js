@@ -13,9 +13,9 @@ function Header() {
         <h1>70 años al servicio de la producción</h1>
       </div>
       <div className="redes-sociales">
-        <a href="enlace-a-youtubehttps://www.youtube.com/@ministeriodeambienteydesar2599"><FaIcons.FaFacebook className="fab fa-youtube"/></a>
-        <a href="https://www.instagram.com/ambientenacion/?hl=es"><i className="fab fa-instagram"><FaIcons.FaTwitter/></i></a>
-        <a href="https://www.facebook.com/AmbienteNacion/?locale=es_LA"><i className="fab fa-facebook"></i><FaIcons.FaYoutube/></a>
+        <a href="https://www.youtube.com/@ministeriodeambienteydesar2599" target="_blank" rel="noreferrer"><i className="fab fa-youtube"></i><FaIcons.FaYoutube/></a>
+        <a href="https://www.instagram.com/ambientenacion/?hl=es" target="_blank" rel="noreferrer"><i className="fab fa-instagram"><FaIcons.FaTwitter/></i></a>
+        <a href="https://www.facebook.com/AmbienteNacion/?locale=es_LA" target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i><FaIcons.FaFacebook/></a>
       </div>
     </header>
   );

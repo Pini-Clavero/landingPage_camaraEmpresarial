@@ -1,18 +1,21 @@
 import React from "react";
 import "./Action.css";
+import ReactPlayer from "react-player";
+
 
 function Action() {
-  return (
-    <div className="action">
-      <img src="/imagenes/video_principal.jpg" alt="Imagen de la empresa" />
-      <div className="cta">
-        <button>¿Querés ser parte de la cámara?</button>
-      </div>
-      <div className="consigna">
-        <h2>Somos una familia que crece, para ofrecerles un servicio superior.</h2>
-      </div>
-    </div>
-  );
+    return (
+        <>
+        <div className="action">
+            <ReactPlayer className="videoEmpresa" muted={true} url="/imagenes/engranajes.mp4" playing loop height="100%" width="100%"/>
+            <div className="cta">
+                <h2>Somos una familia que crece, para ofrecerles un servicio superior.</h2>
+                <button>¿Querés ser parte de la cámara?</button>
+            </div>
+
+        </div>
+        </>
+    );
 }
 
 export default Action;
