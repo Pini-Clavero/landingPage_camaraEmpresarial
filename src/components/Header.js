@@ -1,6 +1,10 @@
 import React from "react";
 import "./Header.css";
-import * as FaIcons from "react-icons/fa"
+import { Avatar, Card, CardMedia, Box, IconButton, Container } from "@mui/material";
+import Stack from '@mui/material/Stack';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Header() {
   return (
@@ -13,9 +17,39 @@ function Header() {
         <h1>70 años al servicio de la producción</h1>
       </div>
       <div className="redes-sociales">
-        <a href="https://www.youtube.com/@ministeriodeambienteydesar2599" target="_blank" rel="noreferrer"><i className="fab fa-youtube"></i><FaIcons.FaYoutube/></a>
-        <a href="https://www.instagram.com/ambientenacion/?hl=es" target="_blank" rel="noreferrer"><i className="fab fa-instagram"><FaIcons.FaTwitter/></i></a>
-        <a href="https://www.facebook.com/AmbienteNacion/?locale=es_LA" target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i><FaIcons.FaFacebook/></a>
+      <IconButton
+                    href="https://www.youtube.com/"
+                    target="_blank"
+                >
+                    <Avatar
+                        sx={{ bgcolor: "#0072c6"}}
+                        variant="solid"
+                    >
+                        <YouTubeIcon />
+                    </Avatar>
+                </IconButton>
+                <IconButton
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                >
+                    <Avatar
+                        sx={{ bgcolor: "#0072c6"}}
+                        variant="solid"
+                    >
+                        <InstagramIcon />
+                    </Avatar>
+                </IconButton>
+                <IconButton
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                >
+                    <Avatar
+                        sx={{ bgcolor: "#0072c6"}}
+                        variant="solid"
+                    >
+                        <FacebookOutlinedIcon />
+                    </Avatar>
+                </IconButton>
       </div>
     </header>
   );
