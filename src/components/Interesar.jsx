@@ -14,6 +14,7 @@ function Interesar() {
                 justifyContent="center"
                 alignItems="center"
                 spacing={3}
+                
             >
                 <div>
                     <h2>Te Puede Interesar</h2>
@@ -66,13 +67,13 @@ function Interesar() {
                         camaraempresariabjuarez@hotmail.com
                     </p>
                 </Box>
-                <div>
+                <Box sx={{ pb: 2, }}>
                     <IconButton
                         href="https://www.youtube.com/"
                         target="_blank"
                     >
                         <Avatar
-                            sx={{ bgcolor: "#0072c6" }}
+                            sx={{ bgcolor: "#00316e" }}
                             variant="solid"
                         >
                             <YouTubeIcon />
@@ -83,7 +84,7 @@ function Interesar() {
                         target="_blank"
                     >
                         <Avatar
-                            sx={{ bgcolor: "#0072c6" }}
+                            sx={{ bgcolor: "#00316e" }}
                             variant="solid"
                         >
                             <InstagramIcon />
@@ -94,13 +95,13 @@ function Interesar() {
                         target="_blank"
                     >
                         <Avatar
-                            sx={{ bgcolor: "#0072c6" }}
+                            sx={{ bgcolor: "#00316e" }}
                             variant="solid"
                         >
                             <FacebookOutlinedIcon />
                         </Avatar>
                     </IconButton>
-                </div>
+                </Box>
             </Stack>
 
         </>

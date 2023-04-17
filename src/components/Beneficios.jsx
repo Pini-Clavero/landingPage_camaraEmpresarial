@@ -23,7 +23,7 @@ function Beneficios() {
                 sx={{pb:8, }}
             >
                 <Card>
-                    <CardContent sx={{bgcolor:"#0072c6", color:"white"}} >
+                    <CardContent sx={{bgcolor:"#00316e", color:"white"}} >
                         <Typography>Beneficio 1</Typography>
                     </CardContent>
                     <CardMedia
@@ -35,7 +35,7 @@ function Beneficios() {
                     />
                 </Card>
                 <Card>
-                    <CardContent sx={{bgcolor:"#0072c6", color:"white"}}>
+                    <CardContent sx={{bgcolor:"#00316e", color:"white"}}>
                         <Typography>Beneficio 2</Typography>
                     </CardContent>
                     <CardMedia
@@ -47,7 +47,7 @@ function Beneficios() {
                     />
                 </Card>
                 <Card>
-                    <CardContent sx={{bgcolor:"#0072c6", color:"white"}}>
+                    <CardContent sx={{bgcolor:"#00316e", color:"white"}}>
                         <Typography>Beneficio 3</Typography>
                     </CardContent>
                     <CardMedia

@@ -2,19 +2,25 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 100px;
     padding: 0 20px;
     border-bottom: 1px solid #ccc;
   }
   
   .logo img {
-    height: 60px;
+    height: 100px;
+    margin-left: 25px;
   }
   
+  .consigna {
+    text-align: center;
+  }
   .consigna h1 {
-    font-size: 24px;
+    margin-top: 35px;
+    color: #00316e;
+    font-size: 20px;
     font-weight: bold;
-    margin: 0;
+    margin-bottom: 1px;
   }
   
   .redes-sociales {

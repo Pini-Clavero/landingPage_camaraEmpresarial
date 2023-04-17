@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { Avatar, Card, CardMedia, Box, IconButton, Container } from "@mui/material";
-import Stack from '@mui/material/Stack';
+import { Avatar, IconButton} from "@mui/material";
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -13,8 +12,7 @@ function Header() {
         <img src="/logos/logo_camara_header.png" alt="Logo de la empresa" />
       </div>
       <div className="consigna">
-        <h1>1950 -2023</h1>
-        <h1>70 años al servicio de la producción</h1>
+        <h1>1950 -2023<br></br>70 años al servicio de la producción</h1>
       </div>
       <div className="redes-sociales">
       <IconButton
@@ -22,7 +20,7 @@ function Header() {
                     target="_blank"
                 >
                     <Avatar
-                        sx={{ bgcolor: "#0072c6"}}
+                        sx={{ bgcolor: "#00316e"}}
                         variant="solid"
                     >
                         <YouTubeIcon />
@@ -33,7 +31,7 @@ function Header() {
                     target="_blank"
                 >
                     <Avatar
-                        sx={{ bgcolor: "#0072c6"}}
+                        sx={{ bgcolor: "#00316e"}}
                         variant="solid"
                     >
                         <InstagramIcon />
@@ -44,7 +42,7 @@ function Header() {
                     target="_blank"
                 >
                     <Avatar
-                        sx={{ bgcolor: "#0072c6"}}
+                        sx={{ bgcolor: "#00316e"}}
                         variant="solid"
                     >
                         <FacebookOutlinedIcon />
