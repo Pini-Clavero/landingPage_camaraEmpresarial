@@ -1,17 +1,17 @@
 .action {
     position: relative;
-    height: 400px;
+    height: 450px;
     margin: 20px;
   }
   
-  .action .videoEmpresa {
+  video {
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 75%;
     width: 100%;
-    height: 100%;
     object-fit: cover;
-    
+    z-index: -1;
   }
   
   .cta {
@@ -21,17 +21,22 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .cta h2 {
+    color: white;
+    font-size: 20px
+  }
   
   .cta button {
     padding: 10px 20px;
     font-size: 24px;
-    background-color: #333;
-    color: white;
+    font-weight: bold;
+    background-color: #ffffff85;
+    color: #00316e;
     border: none;
     border-radius: 25px;
     cursor: pointer;
   }
   
   .cta button:hover {
-    background-color: #666;
+    background-color: #66666685;
   }
