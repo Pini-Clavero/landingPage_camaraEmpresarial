@@ -16,9 +16,9 @@ function Interesar() {
                 spacing={3}
                 
             >
-                <div>
+                <Box sx={{color: "#666666", fontSize: 30,}}>
                     <h2>Te Puede Interesar</h2>
-                </div>
+                </Box>
                 <Stack
                     direction="row"
                     justifyContent="center"
@@ -61,8 +61,8 @@ function Interesar() {
 
                 </Stack>
 
-                <img src="/logos/logo_camara_header.png" alt="Logo de la empresa" width={280}/>
-                <Box>
+                <img src="/logos/logo_camara_header.png" alt="Logo de la empresa" width={180}/>
+                <Box sx={{color: "#666666",  fontSize: 20,}}>
                     <p>Av. Libertad 221, Benito Juárez, Argentina <br></br>
                         camaraempresariabjuarez@hotmail.com
                     </p>
