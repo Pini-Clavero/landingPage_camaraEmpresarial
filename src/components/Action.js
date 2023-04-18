@@ -11,7 +11,7 @@ function Action() {
             <div className="action">
                 <div class="videoEmpresa"><video src={videoPortada} autoPlay muted loop></video></div>
                 <div className="cta">
-                    <h2>Somos una familia que crece, para ofrecerles un servicio superior.</h2>
+                    <h2>Somos una familia que crece, para ofrecerles un servicio superior</h2>
                     <a href="./solicituddesocio.pdf" download><button>
                         ¿Querés ser parte <br></br> de la cámara?
                     </button></a>
