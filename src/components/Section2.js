@@ -21,7 +21,7 @@ function Section2() {
                     </p>
                 </div>
                 <div >
-                    <ReactPlayer className="section-video" controls url="https://www.youtube.com/watch?v=DiA77hnGg3A&ab_channel=tresmiradasmedia" playing loop muted />
+                    <ReactPlayer className="section-video" controls url="https://www.youtube.com/watch?v=DiA77hnGg3A&ab_channel=tresmiradasmedia"  />
                 </div>
             </div>
         </section>
