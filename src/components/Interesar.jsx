@@ -32,6 +32,8 @@ function Interesar() {
                             height="80"
                             src="/imagenes/interesar1.jpg"
                             alt="Municipio de Bicente Lopez"
+                            border="3px"
+                            sx={{borderColor:"#66666675"}}
                         />
                     </Card>
                     <Card>
@@ -40,6 +42,8 @@ function Interesar() {
                             height="80"
                             src="/imagenes/interesar2.jpg"
                             alt="Federación Economica de la Provincia de Buenos Aires"
+                            border="3px"
+                            sx={{borderColor:"#66666675"}}
                         />
                     </Card>
                     <Card>
@@ -48,6 +52,8 @@ function Interesar() {
                             height="80"
                             src="/imagenes/interesar3.jpg"
                             alt="Came"
+                            border="3px"
+                            sx={{borderColor:"#66666675"}}
                         />
                     </Card>
                     <Card>
@@ -55,7 +61,9 @@ function Interesar() {
                             component={"img"}
                             height="80"
                             src="/imagenes/interesar4.jpg"
-                            alt="CAME"
+                            alt="Camara Argentina de Comercio"
+                            border="3px"
+                            sx={{borderColor:"#66666675"}}
                         />
                     </Card>
 
