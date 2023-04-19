@@ -35,8 +35,8 @@
   
   .section-text {
     
-    width: 45%;
-    max-width: 800px;
+   
+    max-width: 90%;
     margin: auto;
   }
   
@@ -47,9 +47,15 @@
   }
   
   .section-video {
-    width: 45%;
+    
     height: 0;
     margin: auto;
+    
+    
+  }
+  .section-text .section-video{
+    float: right;
+    margin: 20px;
     
   }
   

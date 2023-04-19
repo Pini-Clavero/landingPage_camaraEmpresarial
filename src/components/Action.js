@@ -1,6 +1,6 @@
 import React from "react";
 import "./Action.css";
-import { Icon} from "@mui/material";
+import { Icon, Button} from "@mui/material";
 
 import videoPortada from "../assets/portada.mp4"
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -11,10 +11,10 @@ function Action() {
             <div className="action">
                 <div class="videoEmpresa"><video src={videoPortada} autoPlay muted loop></video></div>
                 <div className="cta">
-                    <h2>Somos una familia que crece, para ofrecerles un servicio superior</h2>
-                    <a href="./solicituddesocio.pdf" download><button>
-                        ¿Querés ser parte <br></br> de la cámara?
-                    </button></a>
+                    <h2>¿Queres ser parte de una comunidad comprometida <br></br> que apoya y sostiene al comercio local? </h2>
+                    <a href="./solicituddesocio.pdf" download><Button>
+                    ¡Sumate a la Cámara!
+                    </Button></a>
 
                 </div>
 

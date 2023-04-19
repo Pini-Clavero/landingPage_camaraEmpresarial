@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { Avatar, IconButton} from "@mui/material";
+import { Avatar, IconButton, Box} from "@mui/material";
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -14,10 +14,11 @@ function Header() {
       <div className="consigna">
         <h1>1950 -2023<br></br>70 años al servicio de la producción</h1>
       </div>
-      <div className="redes-sociales">
+      <Box className="redes-sociales" sx>
       <IconButton
                     href="https://www.youtube.com/"
                     target="_blank"
+                    
                 >
                     <Avatar
                         sx={{ bgcolor: "#00316e"}}
@@ -29,9 +30,10 @@ function Header() {
                 <IconButton
                     href="https://www.instagram.com/"
                     target="_blank"
+                    sx={{ font: "10px"}}
                 >
                     <Avatar
-                        sx={{ bgcolor: "#00316e"}}
+                        sx={{ bgcolor: "#00316e",}}
                         variant="solid"
                     >
                         <InstagramIcon />
@@ -48,7 +50,7 @@ function Header() {
                         <FacebookOutlinedIcon />
                     </Avatar>
                 </IconButton>
-      </div>
+      </Box>
     </header>
   );
 }
