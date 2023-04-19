@@ -8,7 +8,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 60%;
+    opacity: 70%;
     width: 100%;
     object-fit: cover;
     z-index: -1;
@@ -24,8 +24,8 @@
   }
   .cta h2 {
     color: white;
-    font-size: 30px;
-    text-shadow: 3px 3px 5px #00316e ;
+    font-size: 40px;
+    text-shadow: 0px 5px 3px #00316e, 0px -2px 3px #00316e, 5px 5px 5px #00316e ;
   }
   a {
     text-decoration: none;
@@ -35,7 +35,7 @@
   }
   .cta button {
     padding: 10px 20px;
-    font-size: 35px;
+    font-size: 42.5px;
     font-weight: bold;
     background-color: #ffffff85;
     color: #00316e;
