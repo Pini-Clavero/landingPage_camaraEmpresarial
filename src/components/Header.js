@@ -18,6 +18,7 @@ function Header() {
       <IconButton
                     href="https://www.youtube.com/"
                     target="_blank"
+                    SameSite="None" Secure
                     
                 >
                     <Avatar
@@ -30,6 +31,7 @@ function Header() {
                 <IconButton
                     href="https://www.instagram.com/"
                     target="_blank"
+                    SameSite="None" Secure
                     sx={{ font: "10px"}}
                 >
                     <Avatar
@@ -42,6 +44,7 @@ function Header() {
                 <IconButton
                     href="https://www.facebook.com/"
                     target="_blank"
+                    SameSite="None" Secure
                 >
                     <Avatar
                         sx={{ bgcolor: "#00316e"}}

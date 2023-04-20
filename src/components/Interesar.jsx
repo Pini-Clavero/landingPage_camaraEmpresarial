@@ -27,7 +27,8 @@ function Interesar() {
                     sx={{ pb: 4, }}>
                     <Card>
                         <Link href="https://benitojuarez.gov.ar/"
-                            target="_blank">
+                            target="_blank"
+                            SameSite="None" Secure>
 
                             <CardMedia
                                 component={"img"}
@@ -41,7 +42,8 @@ function Interesar() {
                     </Card>
                     <Card>
                         <Link href="https://www.febaweb.org.ar/"
-                            target="_blank">
+                            target="_blank"
+                            SameSite="None" Secure>
                             <CardMedia
                                 component={"img"}
                                 height="80"
@@ -54,7 +56,8 @@ function Interesar() {
                     </Card>
                     <Card>
                         <Link href="https://www.redcame.org.ar/"
-                            target="_blank">
+                            target="_blank"
+                            SameSite="None" Secure>
                             <CardMedia
                                 component={"img"}
                                 height="80"
@@ -67,7 +70,8 @@ function Interesar() {
                     </Card>
                     <Card>
                         <Link href="https://www.cac.com.ar/"
-                            target="_blank">
+                            target="_blank"
+                            SameSite="None" Secure>
                             <CardMedia
                                 component={"img"}
                                 height="80"
@@ -91,6 +95,7 @@ function Interesar() {
                     <IconButton
                         href="https://www.youtube.com/"
                         target="_blank"
+                        SameSite="None" Secure
                     >
                         <Avatar
                             sx={{ bgcolor: "#00316e" }}
@@ -102,6 +107,7 @@ function Interesar() {
                     <IconButton
                         href="https://www.instagram.com/"
                         target="_blank"
+                        SameSite="None" Secure
                     >
                         <Avatar
                             sx={{ bgcolor: "#00316e" }}
@@ -113,6 +119,7 @@ function Interesar() {
                     <IconButton
                         href="https://www.facebook.com/"
                         target="_blank"
+                        SameSite="None" Secure
                     >
                         <Avatar
                             sx={{ bgcolor: "#00316e" }}

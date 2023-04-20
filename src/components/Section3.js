@@ -11,7 +11,7 @@ function Section3() {
             </div>
             <div className="section-content">
                 <div className="section-text">
-                    <ReactPlayer className="section-video" controls url="https://youtu.be/F1Sms-5A8u8" />
+                    <ReactPlayer className="section-video" controls url="https://youtu.be/F1Sms-5A8u8" SameSite="None" Secure/>
                     <p>La Cámara nace en el año 1950, luego de celebrarse una asamblea general producto de la sinergia entre comerciantes, industriales
                         y vecinos de la ciudad.<br></br>
                         La necesidad de tener un espacio en común, de participación, alianza y cooperativismo sentó las bases de un camino donde el
