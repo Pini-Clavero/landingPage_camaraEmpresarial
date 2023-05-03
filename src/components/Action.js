@@ -9,10 +9,10 @@ function Action() {
     return (
         <>
             <div className="action">
-                <div class="videoEmpresa"><video src={videoPortada} autoPlay muted loop></video></div>
+                <div className="videoEmpresa"><video src={videoPortada} autoPlay muted loop></video></div>
                 <div className="cta">
                     <h2>¿Queres ser parte de una comunidad comprometida <br></br> que apoya y sostiene al comercio local? </h2>
-                    <a href="./solicituddesocio.pdf" download>
+                    <a target="_blanck" href="https://docs.google.com/forms/d/e/1FAIpQLSe-_inJG92ILIe4vSNrIMrNi6p7FFbwN-0ULk2HZDVXdNjxaw/viewform?usp=sf_link" >
                         <Button >
                             ¡Sumate a la Cámara!
                         </Button>
@@ -23,7 +23,7 @@ function Action() {
             </div>
 
 
-            <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=5491127854696&amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;ayudar&nbsp;a&nbsp;afiliarme&nbsp;en&nbsp;la&nbsp;Cámara&nbsp;Empresarial&nbsp;de&nbsp;Benito&nbsp;Juarez?">
+            <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=5492281319192&amp;text=Hola!&nbsp;Quiero&nbsp;asociarme&nbsp;a&nbsp;la&nbsp;cámara.&nbsp;Como&nbsp;puedo&nbsp;hacerlo?">
                 <Icon sx={{ color: "#ffffff", zIndex: "100" }}>
                     <WhatsAppIcon sx={{ bgcolor: "#25d366", borderRadius: "50%", p: "12px", position: "fixed", right: "35px", bottom: "40px", fontSize: 60 }} />
                 </Icon>

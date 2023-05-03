@@ -28,7 +28,7 @@ function Interesar() {
                     <Card>
                         <Link href="https://benitojuarez.gov.ar/"
                             target="_blank"
-                            SameSite="None" Secure>
+                            samesite="None" secure="true">
 
                             <CardMedia
                                 component={"img"}
@@ -43,7 +43,7 @@ function Interesar() {
                     <Card>
                         <Link href="https://www.febaweb.org.ar/"
                             target="_blank"
-                            SameSite="None" Secure>
+                            samesite="None" secure="true">
                             <CardMedia
                                 component={"img"}
                                 height="80"
@@ -57,7 +57,7 @@ function Interesar() {
                     <Card>
                         <Link href="https://www.redcame.org.ar/"
                             target="_blank"
-                            SameSite="None" Secure>
+                            samesite="None" secure="true">
                             <CardMedia
                                 component={"img"}
                                 height="80"
@@ -71,7 +71,7 @@ function Interesar() {
                     <Card>
                         <Link href="https://www.cac.com.ar/"
                             target="_blank"
-                            SameSite="None" Secure>
+                            samesite="None" secure="true">
                             <CardMedia
                                 component={"img"}
                                 height="80"
@@ -85,7 +85,7 @@ function Interesar() {
 
                 </Stack>
 
-                <img src="/logos/logo_camara_header.png" alt="Logo de la empresa" width={180} />
+                <img src="/logos/logo_camara_header.png" alt="Logo de la empresa" width={280} />
                 <Box sx={{ color: "#666666", fontSize: 20, }}>
                     <p>Av. Libertad 221, Benito Juárez, Argentina <br></br>
                         camaraempresariabjuarez@hotmail.com
@@ -93,9 +93,9 @@ function Interesar() {
                 </Box>
                 <Box sx={{ pb: 2, }}>
                     <IconButton
-                        href="https://www.youtube.com/"
+                        href="https://www.youtube.com/watch?v=S0xjLM79npc&ab_channel=BenitoNet"
                         target="_blank"
-                        SameSite="None" Secure
+                        samesite="None" secure="true"
                     >
                         <Avatar
                             sx={{ bgcolor: "#00316e" }}
@@ -107,7 +107,7 @@ function Interesar() {
                     <IconButton
                         href="https://www.instagram.com/"
                         target="_blank"
-                        SameSite="None" Secure
+                        samesite="None" secure="true"
                     >
                         <Avatar
                             sx={{ bgcolor: "#00316e" }}
@@ -119,7 +119,7 @@ function Interesar() {
                     <IconButton
                         href="https://www.facebook.com/"
                         target="_blank"
-                        SameSite="None" Secure
+                        samesite="None" secure="true"
                     >
                         <Avatar
                             sx={{ bgcolor: "#00316e" }}

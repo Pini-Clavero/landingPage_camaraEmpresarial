@@ -1,41 +1,110 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "./Section.css";
-
+import { Card, CardMedia, Link } from "@mui/material";
+import Stack from '@mui/material/Stack';
 
 function Section3() {
     return (
         <section className="section">
             <div className="section-title">
-                <h2>Desde adentro - Como se hace? Como lo hicieron?</h2>
+                <h2>LA PRODUCCIÓN JUARENSE</h2>
             </div>
             <div className="section-content">
                 <div className="section-text">
-                    <ReactPlayer className="section-video" controls url="https://youtu.be/F1Sms-5A8u8" SameSite="None" Secure/>
-                    <p>La Cámara nace en el año 1950, luego de celebrarse una asamblea general producto de la sinergia entre comerciantes, industriales
-                        y vecinos de la ciudad.<br></br>
-                        La necesidad de tener un espacio en común, de participación, alianza y cooperativismo sentó las bases de un camino donde el
-                        apoyo mutuo sería la premisa característica de esta organización.<br></br>
-                        Con más de 150 personas se pronunciaría, la primera junta directiva, dando inicio a la fundación de la Cámara Comercial,
-                        Industrial y de Propietarios, (como su denominación de origen expresaba) que contribuiría a sostener y contener los derechos y
-                        las necesidades de sus asociados y asociadas, tal como lo sigue realizando hasta la fecha.<br></br>
-                        71 años pasaron de aquel evento relevante para la comunidad, siete décadas de prolíficas anécdotas donde atravesamos períodos
-                        de vaivenes económicos, sin embargo, desde el comienzo nos enfocamos en acompañar y sostener a la comunidad empresarial y
-                        comercial.<br></br>
-                        La CEBJ acompaña a los comerciantes que, con tanto empeño y dedicación vieron crecer sus comercios y empresas que fueron, son
-                        y serán el latido de una ciudad en constante crecimiento.<br></br>
-                        Nos quedamos con los logros, con defender nuestra fuente laboral y el sostenimiento de una economía inclusiva, somos el
-                        engranaje de un motor productivo al que elegimos preservar.<br></br>
-                        A la Cámara la hacemos entre todos y todas, como una familia que se esfuerza por abrir las puertas de su comercio. Emprender es
-                        aprender a dar los primeros pasos y estamos para nutrir en la acción comunitaria a la industria, la producción y el comercio local.
-                        Festejamos el logro de cada sector comercial desde siempre, porque sabemos que nadie se salva sola ni solo, que cooperar es
-                        sinónimo de colaboración y cuando colaboramos, el peso se distribuye para avanzar con los esfuerzos repartidos.<br></br>
-                        Te estamos esperando para que la Cámara siga creciendo y alimentando esa reciprocidad que nació en aquella asamblea del 17 de
-                        septiembre de 1950.<br></br>
-                        Vimos pasar mucha historia por estas calles; en esta etapa de nuevos desafíos nos toca escribir con el objetivo claro y simple: la
-                        Cámara Empresaria se compromete a asistirlos y asistirlas en cada paso del camino.<br></br>
-                        <strong><center>Nos encantaría verte formar parte de nuestra comunidad de la Cámara</center></strong> 
-                        <strong><center>¡Juntos podemos hacer realidad nuestros objetivos!</center></strong></p>
+                    <ReactPlayer className="section-video" controls url="https://youtu.be/F1Sms-5A8u8" samesite="None" secure="true" />
+                    <p>Las empresas y comercios de nuestra ciudad son una parte fundamental de la economía local. Estas
+                        nos brindan una amplia gama de productos y servicios a la comunidad, desde alimentos y vestimenta
+                        hasta servicios financieros y profesionales.<br></br>
+                        Además de generar empleo y contribuir al desarrollo económico, también desempeñan un papel
+                        importante en la vida social y cultural de la comunidad.<br></br>
+                        A menudo, se convierten en puntos de encuentro para nosotros, donde podemos socializar y disfrutar
+                        de eventos y actividades!<br></br>
+
+                        Presentamos a las empresas y negocios que decidieron unirse a la Cámara, una organización que
+                        representa los intereses de los negocios locales y trabaja para promover el crecimiento y desarrollo.<br></br>
+                        Al asociarse podrán aprovechar los beneficios de la Cámara, las capacitaciónes, cursos y talleres
+                        empresariales, la representación en el ámbito local ante problemáticas que atañen a nuestra
+                        producción, requerimientos y necesidades comerciales.<br></br>
+                        Gracias por su dedicación y compromiso con la creación de empleos y la generación de
+                        oportunidades en nuestra ciudad. Gracias por ofrecer productos y servicios de alta calidad que
+                        satisfacen las necesidades de nuestra población y contribuyen a su bienestar.<br></br>
+                        Su presencia y colaboración en la escena local no solo beneficia a su empresa, sino también a la
+                        sociedad en general. Gracias por ser parte de la Cámara y por ser un ejemplo a seguir para otros
+                        empresarios y comerciantes locales.<br></br>
+                    </p>
+                        <h2><center>Algunos de nuestros asociados son:</center></h2>
+                    <Stack
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="center"
+                    spacing={4}>
+                    <Card>
+                        <Link href="https://morixe.com.ar/"
+                            target="_blank"
+                            samesite="None" secure="true">
+
+                            <CardMedia
+                                component={"img"}
+                                height="150"
+                                src="https://media.licdn.com/dms/image/C4D0BAQGPTvsuC7oHog/company-logo_200_200/0/1579879290840?e=2147483647&v=beta&t=QiuRGw8qEnMu7vEcovhB1w9wKAn6YJMg88jHT-Tnon0"
+                                alt="Morixe"
+                                border="3px"
+                                sx={{ borderColor: "#00316e", p:"3px" }}
+                            />
+                        </Link>
+                    </Card>
+                    <Card>
+                        <Link href="https://www.campoamorhnos.com.ar/web2021/"
+                            target="_blank"
+                            samesite="None" secure="true">
+                            <CardMedia
+                                component={"img"}
+                                height="150"
+                                src="https://cebadacervecera.com.ar/wp-content/uploads/2022/06/LOGO-CAMPOAMOR-300-300-300x300.jpg"
+                                alt="Campoamos Hnos."
+                                border="3px"
+                                sx={{ borderColor: "#00316e", p:"3px" }}
+                            />
+                        </Link>
+                    </Card>
+                    <Card>
+                        <Link href="https://supermercadoacuario.com.ar/app/"
+                            target="_blank"
+                            samesite="None" secure="true">
+                            <CardMedia
+                                component={"img"}
+                                src="https://www.supermercadoacuario.com.ar/app/branding/acuario/logo.png"
+                                alt="Supermercado Acuario"
+                                border="3px"
+                                sx={{ borderColor: "#00316e", width:"150px", height:"150px", objectFit: "contain" }}
+                            />
+                        </Link>
+                    </Card>
+                    <Card>
+                        <Link href="https://www.facebook.com/people/El-Le%C3%B1erito/100070696550643/"
+                            target="_blank"
+                            samesite="None" secure="true">
+                            <CardMedia
+                                component={"img"}
+                                height="150"
+                                src="/logos/jugos_el_leñerito.png"
+                                alt="El Leñerito"
+                                border="3px"
+                                sx={{ borderColor: "#00316e", p:"3px" }}
+                            />
+                        </Link>
+                    </Card>
+
+                </Stack>
+                    <p>A medida que la Cámara continúa su camino, esperamos contar con su continua presencia y
+                        compromiso para enfrentar los desafíos y aprovechar las oportunidades de desarrollo que se
+                        presenten. Juntos, podemos construir una comunidad más fuerte, próspera y equitativa para todos y
+                        todas.<br></br>
+                        De nuevo, muchas gracias por su compromiso y dedicación a la escena local. Su contribución es
+                        invaluable y apreciada por todos.<br></br>
+
+                    </p>
                 </div>
             </div>
         </section>

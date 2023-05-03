@@ -25,7 +25,7 @@
   .cta h2 {
     color: white;
     font-size: 40px;
-    text-shadow: 0px 5px 3px #00316e, 0px -2px 3px #00316e, 5px 5px 5px #00316e ;
+    text-shadow: 0px 1px 7px #00316e, 0px -1px 7px #00316e, 1px 0px 7px #00316e, -1px 0px 7px #00316e  ; 
   }
   a {
     text-decoration: none;

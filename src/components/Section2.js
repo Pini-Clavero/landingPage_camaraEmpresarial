@@ -11,31 +11,33 @@ function Section2() {
             </div>
             <div className="section-content">
                 <div className="section-text">
-                <ReactPlayer className="section-video" controls url="https://youtu.be/I4uCTXCoLE8"  SameSite="None" Secure/>
-                <p>La Cámara nace en el año 1950, luego de celebrarse una asamblea general producto de la sinergia entre comerciantes, industriales
-                        y vecinos de la ciudad.<br></br>
-                        La necesidad de tener un espacio en común, de participación, alianza y cooperativismo sentó las bases de un camino donde el
-                        apoyo mutuo sería la premisa característica de esta organización.<br></br>
-                        Con más de 150 personas se pronunciaría, la primera junta directiva, dando inicio a la fundación de la Cámara Comercial,
-                        Industrial y de Propietarios, (como su denominación de origen expresaba) que contribuiría a sostener y contener los derechos y
-                        las necesidades de sus asociados y asociadas, tal como lo sigue realizando hasta la fecha.<br></br>
-                        71 años pasaron de aquel evento relevante para la comunidad, siete décadas de prolíficas anécdotas donde atravesamos períodos
-                        de vaivenes económicos, sin embargo, desde el comienzo nos enfocamos en acompañar y sostener a la comunidad empresarial y
-                        comercial.<br></br>
-                        La CEBJ acompaña a los comerciantes que, con tanto empeño y dedicación vieron crecer sus comercios y empresas que fueron, son
-                        y serán el latido de una ciudad en constante crecimiento.<br></br>
-                        Nos quedamos con los logros, con defender nuestra fuente laboral y el sostenimiento de una economía inclusiva, somos el
-                        engranaje de un motor productivo al que elegimos preservar.<br></br>
-                        A la Cámara la hacemos entre todos y todas, como una familia que se esfuerza por abrir las puertas de su comercio. Emprender es
-                        aprender a dar los primeros pasos y estamos para nutrir en la acción comunitaria a la industria, la producción y el comercio local.
-                        Festejamos el logro de cada sector comercial desde siempre, porque sabemos que nadie se salva sola ni solo, que cooperar es
-                        sinónimo de colaboración y cuando colaboramos, el peso se distribuye para avanzar con los esfuerzos repartidos.<br></br>
-                        Te estamos esperando para que la Cámara siga creciendo y alimentando esa reciprocidad que nació en aquella asamblea del 17 de
-                        septiembre de 1950.<br></br>
-                        Vimos pasar mucha historia por estas calles; en esta etapa de nuevos desafíos nos toca escribir con el objetivo claro y simple: la
-                        Cámara Empresaria se compromete a asistirlos y asistirlas en cada paso del camino.<br></br>
-                        <strong><center>Nos encantaría verte formar parte de nuestra comunidad de la Cámara</center></strong> 
-                        <strong><center>¡Juntos podemos hacer realidad nuestros objetivos!</center></strong></p>
+                    <ReactPlayer className="section-video" controls url="https://youtu.be/I4uCTXCoLE8" samesite="None" secure="true" />
+                    <p>Conozcamos a las personas que inician, organizan y gestionan su propio negocio o empresa,
+                        asumiendo los riesgos financieros y personales asociados al proyecto que eligieron desarrollar. Ellas
+                        y ellos son quienes emprenden su labor diaria, son la voz de la experiencia. Comerciantes que
+                        decidieron unirse a la Cámara, para sumar y sentirse apoyados por nuestra institución.<br></br>
+                        Las y los emprendedores son personas que tienen una visión creativa y una actitud proactiva para
+                        identificar oportunidades y crear soluciones innovadoras a los problemas. Además, suelen ser
+                        personas con capacidad de liderazgo, perseverancia y capacidad para tomar decisiones.<br></br>
+                        Los emprendedores y emprendedoras trabajan, en ocasiones, en solitario y otras lideran equipos de
+                        trabajo para llevar a cabo sus proyectos. Pueden estar motivados por diversas razones, como la
+                        búsqueda de independencia financiera, la realización personal, la creación de empleo y la solución de
+                        problemas sociales. En cualquier caso, los emprendedores juegan un papel crucial en el desarrollo
+                        económico y social de nuestra comunidad juarense.<br></br>
+                        Queremos recordarles lo importante que es su trabajo y el impacto que tienen en la comunidad. Su
+                        valentía, creatividad y perseverancia son las herramientas que les permiten enfrentar los desafíos
+                        diarios y continuar construyendo sus sueños.<br></br>
+                        No siempre será fácil emprender y habrá momentos en los que se sientan cansados y frustrados.
+                        Pero es en esos momentos cuando deben recordar que estamos trabajando a la par por un propósito,
+                        motivación y pasión compartida. No dejen que los obstáculos los detengan, encontraremos
+                        soluciones creativas y efectivas unidos en una sola Cámara empresaria.<br></br>
+                        Aprovechemos estas relaciones y construyamos una comunidad de emprendedores que se ayuden y
+                        se apoyen mutuamente.<br></br>
+                        El mundo necesita más emprendedores como ustedes. Personas que tengan la valentía de seguir sus
+                        sueños, que creen oportunidades y que contribuyan a la creación de empleo y al desarrollo
+                        económico y social de sus comunidades. Ustedes son los motores de cambio y los agentes de
+                        progreso que pueden transformar no solo su lugar de residencia sino un territorio entero.<br></br>
+                    </p>
                 </div>
             </div>
         </section>
