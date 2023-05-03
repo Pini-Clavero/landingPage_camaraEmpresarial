@@ -12,19 +12,15 @@ function Interesar() {
             <Stack
                 direction="column"
                 justifyContent="center"
-                alignItems="center"
-                spacing={3}
-
-            >
-                <Box sx={{ color: "#666666", fontSize: 30, }}>
-                    <h2>Te Puede Interesar</h2>
+                alignItems="center">
+                <Box component={"h2"} sx={{ color: "#666666", fontSize: 30 }}>
+                    Te Puede Interesar
                 </Box>
                 <Stack
                     direction="row"
                     justifyContent="center"
                     alignItems="center"
-                    spacing={2}
-                    sx={{ pb: 4, }}>
+                    spacing={2}>
                     <Card>
                         <Link href="https://benitojuarez.gov.ar/"
                             target="_blank"
@@ -32,11 +28,11 @@ function Interesar() {
 
                             <CardMedia
                                 component={"img"}
-                                height="80"
-                                src="https://edu.benitojuarez.gov.ar/wp-content/uploads/2021/08/logo-muni-final.png"
+                                height="100"
+                                src="https://yt3.googleusercontent.com/ytc/AGIKgqNWZOP07uDaQ8Opc06XFwVMtwFDgM614PNL0Xzr=s900-c-k-c0x00ffffff-no-rj"
                                 alt="Municipio de Bicente Lopez"
                                 border="3px"
-                                sx={{ borderColor: "#66666675", bgcolor:"#00316e", p:"3px" }}
+                                sx={{ borderColor: "#66666675", p:"3px", objectFit: "cover", width:"150px" }}
                             />
                         </Link>
                     </Card>
@@ -46,7 +42,7 @@ function Interesar() {
                             samesite="None" secure="true">
                             <CardMedia
                                 component={"img"}
-                                height="80"
+                                height="100"
                                 src="https://www.febaweb.org.ar/images/logo.png"
                                 alt="Federación Economica de la Provincia de Buenos Aires"
                                 border="3px"
@@ -60,7 +56,7 @@ function Interesar() {
                             samesite="None" secure="true">
                             <CardMedia
                                 component={"img"}
-                                height="80"
+                                height="100"
                                 src="https://www.redcame.org.ar/images/logos/logo-came-lite.svg"
                                 alt="Came"
                                 border="3px"
@@ -74,7 +70,7 @@ function Interesar() {
                             samesite="None" secure="true">
                             <CardMedia
                                 component={"img"}
-                                height="80"
+                                height="100"
                                 src="https://www.centrodecomercio.org.ar/fotos/2020/03/18032020_logo-ooo.jpg"
                                 alt="Camara Argentina de Comercio"
                                 border="3px"
