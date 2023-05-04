@@ -1,49 +1,66 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    padding: 0 20px;
-    border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+  height: 100px;
+  margin-left: 25px;
+}
+
+.consigna {
+  text-align: center;
+}
+
+.consigna h1 {
+  margin-top: 50px;
+  color: #00316e;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.redes-sociales {
+  display: flex;
+  margin-top: 30px;
+}
+
+.redes-sociales a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: white;
+}
+
+.redes-sociales a:hover {
+  background-color: #333;
+}
+
+.redes-sociales a i {
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  header {
+    transform: scale(0.7);
+    border-bottom: 0px;
+    padding: 0px;
   }
-  
   .logo img {
     height: 100px;
-    margin-left: 25px;
+    margin-left: 0px;
+    
   }
-  
   .consigna {
-    text-align: center;
+    display: none;      
   }
-  .consigna h1 {
-    margin-top: 50px;
-    color: #00316e;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 20px;
-  }
-  
-  .redes-sociales {
-    display: flex;
-    margin-top: 30px;
-  }
-  
-  .redes-sociales a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-    border-radius: 50%;
-    background-color: #ccc;
-    color: white;
-  }
-  
-  .redes-sociales a:hover {
-    background-color: #333;
-  }
-  
-  .redes-sociales a i {
-    font-size: 15px;
-  }
+} 

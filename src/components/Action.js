@@ -20,14 +20,17 @@ function Action() {
 
                 </div>
 
+                <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=5492281319192&amp;text=Hola!&nbsp;Quiero&nbsp;asociarme&nbsp;a&nbsp;la&nbsp;cámara.&nbsp;Como&nbsp;puedo&nbsp;hacerlo?">
+                    <Icon sx={{ color: "#ffffff", zIndex: "100" }}>
+                        <WhatsAppIcon className="whatsAppIcon" sx={{
+                            bgcolor: "#25d366", borderRadius: "50%", p: "12px",
+                            right: "25px", zIndex: "12", fontSize: 60
+                        }} />
+                    </Icon>
+                </a>
             </div>
 
 
-            <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=5492281319192&amp;text=Hola!&nbsp;Quiero&nbsp;asociarme&nbsp;a&nbsp;la&nbsp;cámara.&nbsp;Como&nbsp;puedo&nbsp;hacerlo?">
-                <Icon sx={{ color: "#ffffff", zIndex: "100" }}>
-                    <WhatsAppIcon sx={{ bgcolor: "#25d366", borderRadius: "50%", p: "12px", position: "fixed", right: "35px", bottom: "40px", fontSize: 60 }} />
-                </Icon>
-            </a>
         </>
     );
 }

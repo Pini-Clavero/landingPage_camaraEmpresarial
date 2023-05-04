@@ -1,7 +1,7 @@
 .action {
     position: relative;
     height: 450px;
-    margin: 20px;
+    margin: 5px 20px 5px 20px;
   }
   
   video {
@@ -45,6 +45,34 @@
   }
   
   .cta button:hover {
-    background-color: #66666685;
+    background-color: #66666685; 
+  }
+  .whatsAppIcon{
+    position: fixed;
+    bottom: 40px
+  }
+
+  @media (max-width: 600px) {
+    video{
+      height: 85%;
+      position: absolute;
+      top: -20px;
+    }
+    .cta h2{
+      font-size: 20px;
+      position: relative;
+      top: -100px;
+    }
+    .cta button{
+      font-size: 16px;
+      position: relative;
+      top:-100px;
+    }
+    .whatsAppIcon{
+      position: absolute;
+      bottom: 100px;
+      z-index: 100;
+      right: 35px;
+    }
     
   }

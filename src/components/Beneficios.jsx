@@ -16,6 +16,7 @@ function Beneficios() {
             </section>
 
             <Stack
+                id="stackBeneficios"
                 direction="row"
                 justifyContent="space-evenly"
                 alignItems="center"
