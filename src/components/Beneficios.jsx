@@ -11,8 +11,6 @@ function Beneficios() {
                 <div className="section-title">
                     <h2>Beneficios y convenios</h2>
                 </div>
-            
-            
             </section>
 
             <Stack
@@ -22,10 +20,10 @@ function Beneficios() {
                 alignItems="center"
                 spacing={2}
                 sx={{pb:8, }}
-            >
+                >
                 <Card>
                     <CardContent sx={{bgcolor:"#00316e", color:"white"}} >
-                        <Typography>Beneficio 1</Typography>
+                        <Typography>Salón de eventos</Typography>
                     </CardContent>
                     <CardMedia
                         component={"img"}
@@ -37,7 +35,7 @@ function Beneficios() {
                 </Card>
                 <Card>
                     <CardContent sx={{bgcolor:"#00316e", color:"white"}}>
-                        <Typography>Beneficio 2</Typography>
+                        <Typography>Capacitaciones</Typography>
                     </CardContent>
                     <CardMedia
                         component={"img"}
@@ -49,7 +47,7 @@ function Beneficios() {
                 </Card>
                 <Card>
                     <CardContent sx={{bgcolor:"#00316e", color:"white"}}>
-                        <Typography>Beneficio 3</Typography>
+                        <Typography>Descuentos</Typography>
                     </CardContent>
                     <CardMedia
                         component={"img"}
@@ -61,7 +59,6 @@ function Beneficios() {
                 </Card>
             </Stack>
         </>
-
     );
 }
 

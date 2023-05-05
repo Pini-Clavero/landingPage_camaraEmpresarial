@@ -1,5 +1,4 @@
 import React from "react";
-import ReactPlayer from "react-player";
 import "./Section.css";
 import { Card, CardMedia, Link } from "@mui/material";
 import Stack from '@mui/material/Stack';

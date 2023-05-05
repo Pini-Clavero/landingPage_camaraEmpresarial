@@ -1,5 +1,4 @@
 import React from "react";
-import ReactPlayer from "react-player";
 import "./Section.css";
 
 
@@ -14,7 +13,8 @@ function Section() {
                     
                         <iframe id="section-video" width="560" height="315" src="https://www.youtube.com/embed/fLkB7kc2uTI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     
-                    <p>La Cámara nace en el año 1950, luego de celebrarse una asamblea general producto de la sinergia entre comerciantes, industriales
+                    <p>
+                        La Cámara nace en el año 1950, luego de celebrarse una asamblea general producto de la sinergia entre comerciantes, industriales
                         y vecinos de la ciudad.<br></br>
                         La necesidad de tener un espacio en común, de participación, alianza y cooperativismo sentó las bases de un camino donde el
                         apoyo mutuo sería la premisa característica de esta organización.<br></br>

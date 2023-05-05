@@ -14,14 +14,12 @@ function Header() {
                 <img src="/logos/logo_camara_header.png" alt="Logo de la empresa" />
             </div>
             <div className="consigna">
-                <h1>1950 -2023<br></br>70 años al servicio de la producción</h1>
+                <h1>1950 -2023<br />70 años al servicio de la producción</h1>
             </div>
             <Box className="redes-sociales">
                 <IconButton
-                    href="https://www.youtube.com/watch?v=S0xjLM79npc&ab_channel=BenitoNet"
+                    href="https://youtube.com/@camaraempresariabenitojuarez"
                     target="_blank"
-                    samesite="None" secure="true"
-
                 >
                     <Avatar
                         sx={{ bgcolor: "#00316e" }}
@@ -31,9 +29,8 @@ function Header() {
                     </Avatar>
                 </IconButton>
                 <IconButton
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/camaraempbjuarez/"
                     target="_blank"
-                    samesite="None" secure="true"
                     sx={{ font: "10px" }}
                 >
                     <Avatar
@@ -44,7 +41,7 @@ function Header() {
                     </Avatar>
                 </IconButton>
                 <IconButton
-                    href="https://www.facebook.com/"
+                    href="https://www.facebook.com/profile.php?id=100054584163238"
                     target="_blank"
                     samesite="None" secure="true"
                 >

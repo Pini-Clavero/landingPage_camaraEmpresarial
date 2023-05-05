@@ -14,7 +14,7 @@ function Interesar() {
                 direction="column"
                 justifyContent="center"
                 alignItems="center">
-                <dic className="tePuedeInteresar">
+                <section className="tePuedeInteresar">
                     <Box component={"h2"} sx={{ color: "#666666", fontSize: 30, textAlign: "center" }}>
                         Te Puede Interesar
                     </Box>
@@ -27,7 +27,7 @@ function Interesar() {
                         <Card >
                             <Link href="https://benitojuarez.gov.ar/"
                                 target="_blank"
-                                samesite="None" secure="true">
+                                rel="noopener noreferrer">
 
                                 <CardMedia
                                     component={"img"}
@@ -56,7 +56,7 @@ function Interesar() {
                         <Card>
                             <Link href="https://www.redcame.org.ar/"
                                 target="_blank"
-                                samesite="None" secure="true">
+                                rel="noopener noreferrer">
                                 <CardMedia
                                     component={"img"}
                                     height="100"
@@ -70,7 +70,7 @@ function Interesar() {
                         <Card>
                             <Link href="https://www.cac.com.ar/"
                                 target="_blank"
-                                samesite="None" secure="true">
+                                rel="noopener noreferrer">
                                 <CardMedia
                                     component={"img"}
                                     height="100"
@@ -83,17 +83,18 @@ function Interesar() {
                         </Card>
 
                     </Stack>
-                </dic>
+                </section>
+                <footer>
 
-                <img className="imgFooter" src="/logos/logo_camara_header.png" alt="Logo de la empresa" width={280} />
+                <img className="imgFooter" src="/logos/logo_camara_header.png" alt="Logo de la empresa" width={280} aria-label="Logo de la empresa"/>
                 <p className="pFooter">Av. Libertad 221, Benito Juárez, Argentina <br></br>
                     camaraempresariabjuarez@hotmail.com
                 </p>
                 <Box sx={{ pb: 2, }}>
                     <IconButton
-                        href="https://www.youtube.com/watch?v=S0xjLM79npc&ab_channel=BenitoNet"
+                        href="https://youtube.com/@camaraempresariabenitojuarez"
                         target="_blank"
-                        samesite="None" secure="true"
+                        rel="noopener noreferrer"
                     >
                         <Avatar
                             sx={{ bgcolor: "#00316e" }}
@@ -103,9 +104,9 @@ function Interesar() {
                         </Avatar>
                     </IconButton>
                     <IconButton
-                        href="https://www.instagram.com/"
+                        href="https://www.instagram.com/camaraempbjuarez/"
                         target="_blank"
-                        samesite="None" secure="true"
+                        rel="noopener noreferrer"
                     >
                         <Avatar
                             sx={{ bgcolor: "#00316e" }}
@@ -115,9 +116,9 @@ function Interesar() {
                         </Avatar>
                     </IconButton>
                     <IconButton
-                        href="https://www.facebook.com/"
+                        href="https://www.facebook.com/profile.php?id=100054584163238"
                         target="_blank"
-                        samesite="None" secure="true"
+                        rel="noopener noreferrer"
                     >
                         <Avatar
                             sx={{ bgcolor: "#00316e" }}
@@ -127,6 +128,8 @@ function Interesar() {
                         </Avatar>
                     </IconButton>
                 </Box>
+                </footer>
+
             </Stack>
 
         </>
