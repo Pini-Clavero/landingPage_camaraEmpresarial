@@ -1,15 +1,13 @@
 import React from "react";
 import { CssBaseline } from "@mui/material";
 
-
-
-
 import Header from "./components/Header";
 import Action from "./components/Action";
 import Section from "./components/Section";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
 import Beneficios from "./components/Beneficios";
+import MovilAcordeon from "./components/MovilAcordeon";
 import Interesar from "./components/Interesar";
 
 function App() {
@@ -22,6 +20,7 @@ function App() {
       <Section2/> 
       <Section3/>
       <Beneficios/>
+      <MovilAcordeon/>
       <Interesar/>
     </div>
   );

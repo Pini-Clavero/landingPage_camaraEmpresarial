@@ -4,7 +4,7 @@
     margin: 5px 20px 5px 20px;
   }
   
-  video {
+  .videoEmpresa video {
     position: absolute;
     top: 0;
     left: 0;
@@ -53,7 +53,7 @@
   }
 
   @media (max-width: 600px) {
-    video{
+    .videoEmpresa video{
       height: 85%;
       position: absolute;
       top: -20px;
