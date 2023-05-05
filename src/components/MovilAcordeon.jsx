@@ -10,51 +10,51 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 export default function SimpleAccordion() {
     return (
         <div className='movilAcordeon'>
-            <Accordion>
+            <Accordion sx={{ bgcolor: "#00316e"}}>
                 <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
+                    expandIcon={<ExpandMoreIcon sx={{ color: "white"}}/>}
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                 >
-                    <Typography>LA VOZ DE LA HISTORIA</Typography>
+                    <Typography component={"h2"} sx={{ color: "white", fontSize: 18 }}>LA VOZ DE LA HISTORIA</Typography>
                 </AccordionSummary>
-                <AccordionDetails>
+                <AccordionDetails id="acordionDetails">
                 <iframe src="https://www.youtube.com/embed/fLkB7kc2uTI?start=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" width="280" height="158" frameborder="0"></iframe>
                 </AccordionDetails>
             </Accordion>
-            <Accordion>
+            <Accordion sx={{ bgcolor: "#00316e"}}>
                 <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
+                    expandIcon={<ExpandMoreIcon sx={{ color: "white"}}/>}
                     aria-controls="panel2a-content"
                     id="panel2a-header"
                 >
-                    <Typography>EN PRIMERA PERSONA</Typography>
+                    <Typography component={"h2"} sx={{ color: "white", fontSize: 18 }}>EN PRIMERA PERSONA</Typography>
                 </AccordionSummary>
-                <AccordionDetails>
+                <AccordionDetails id="acordionDetails">
                 <iframe src="https://www.youtube.com/embed/I4uCTXCoLE8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" width="280" height="158" frameborder="0"></iframe>
                 </AccordionDetails>
             </Accordion>
-            <Accordion>
+            <Accordion sx={{ bgcolor: "#00316e"}}>
                 <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
+                    expandIcon={<ExpandMoreIcon sx={{ color: "white"}}/>}
                     aria-controls="panel3a-content"
                     id="panel3a-header"
                 >
-                    <Typography>LA PRODUCCION JUARENCE</Typography>
+                    <Typography component={"h2"} sx={{ color: "white", fontSize: 18 }}>LA PRODUCCION JUARENCE</Typography>
                 </AccordionSummary>
-                <AccordionDetails>
+                <AccordionDetails id="acordionDetails">
                 <iframe src="https://www.youtube.com/embed/F1Sms-5A8u8?start=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" width="280" height="158" frameborder="0"></iframe>
                 </AccordionDetails>
             </Accordion>
-            <Accordion>
+            <Accordion sx={{ bgcolor: "#00316e"}}>
                 <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
+                    expandIcon={<ExpandMoreIcon sx={{ color: "white"}}/>}
                     aria-controls="panel4a-content"
                     id="panel4a-header"
                 >
-                    <Typography>BENEFICIOS DE ASOCIARTE</Typography>
+                    <Typography component={"h2"} sx={{ color: "white", fontSize: 18 }}>BENEFICIOS DE ASOCIARTE</Typography>
                 </AccordionSummary>
-                <AccordionDetails>
+                <AccordionDetails id="acordionDetails">
                 </AccordionDetails>
             </Accordion>
         </div>

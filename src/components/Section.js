@@ -11,9 +11,9 @@ function Section() {
             </div>
             <div className="section-content">
                 <div className="section-text">
-                <ReactPlayer className="section-video" controls url="https://www.youtube.com/watch?v=fLkB7kc2uTI&ab_channel=C%C3%A1maraEmpresariaBenitoJu%C3%A1rez" playing loop autoPlay 
-                samesite="None" secure="true"/>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fLkB7kc2uTI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                        <iframe id="section-video" width="560" height="315" src="https://www.youtube.com/embed/fLkB7kc2uTI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
                     <p>La Cámara nace en el año 1950, luego de celebrarse una asamblea general producto de la sinergia entre comerciantes, industriales
                         y vecinos de la ciudad.<br></br>
                         La necesidad de tener un espacio en común, de participación, alianza y cooperativismo sentó las bases de un camino donde el
@@ -36,11 +36,11 @@ function Section() {
                         septiembre de 1950.<br></br>
                         Vimos pasar mucha historia por estas calles; en esta etapa de nuevos desafíos nos toca escribir con el objetivo claro y simple: la
                         Cámara Empresaria se compromete a asistirlos y asistirlas en cada paso del camino.<br></br>
-                        <strong style={{ textAlign: 'center' }}>Nos encantaría verte formar parte de nuestra comunidad de la Cámara</strong> 
+                        <strong style={{ textAlign: 'center' }}>Nos encantaría verte formar parte de nuestra comunidad de la Cámara</strong>
                         <strong style={{ textAlign: 'center' }}>¡Juntos podemos hacer realidad nuestros objetivos!</strong></p>
-                    
+
                 </div>
-                
+
             </div>
         </section>
     );

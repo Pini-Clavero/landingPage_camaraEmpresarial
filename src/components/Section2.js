@@ -11,7 +11,7 @@ function Section2() {
             </div>
             <div className="section-content">
                 <div className="section-text">
-                    <ReactPlayer className="section-video" controls url="https://youtu.be/I4uCTXCoLE8" samesite="None" secure="true" />
+                <iframe id="section-video" width="560" height="315" src="https://www.youtube.com/embed/I4uCTXCoLE8?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>Conozcamos a las personas que inician, organizan y gestionan su propio negocio o empresa,
                         asumiendo los riesgos financieros y personales asociados al proyecto que eligieron desarrollar. Ellas
                         y ellos son quienes emprenden su labor diaria, son la voz de la experiencia. Comerciantes que

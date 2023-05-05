@@ -12,7 +12,7 @@ function Section3() {
             </div>
             <div className="section-content">
                 <div className="section-text">
-                    <ReactPlayer className="section-video" controls url="https://youtu.be/F1Sms-5A8u8" samesite="None" secure="true" />
+                <iframe id="section-video" width="560" height="315" src="https://www.youtube.com/embed/F1Sms-5A8u8?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>Las empresas y comercios de nuestra ciudad son una parte fundamental de la economía local. Estas
                         nos brindan una amplia gama de productos y servicios a la comunidad, desde alimentos y vestimenta
                         hasta servicios financieros y profesionales.<br></br>
