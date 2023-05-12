@@ -6,6 +6,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { List, ListItem, ListItemButton, ListItemText } from '@mui/material';
+
 
 export default function SimpleAccordion() {
     return (
@@ -55,6 +57,23 @@ export default function SimpleAccordion() {
                     <Typography component={"h2"} sx={{ color: "white", fontSize: 18 }}>BENEFICIOS DE ASOCIARTE</Typography>
                 </AccordionSummary>
                 <AccordionDetails id="acordionDetails">
+                    <List>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemText sx={{ color: "white"}} primary="Descuento en nuestro Salon de Eventos" />
+                            </ListItemButton>
+                        </ListItem>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemText sx={{ color: "white"}} primary="Servicios de Laboratorio" />
+                            </ListItemButton>
+                        </ListItem>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemText sx={{ color: "white"}} primary="Capacitaciones de la Cámara" />
+                            </ListItemButton>
+                        </ListItem>
+                    </List>
                 </AccordionDetails>
             </Accordion>
         </div>

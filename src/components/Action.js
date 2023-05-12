@@ -11,7 +11,7 @@ function Action() {
             <div className="action">
                 <div className="videoEmpresa"><video src={videoPortada} autoPlay muted loop></video></div>
                 <div className="cta">
-                    <h2>¿Queres ser parte de una comunidad comprometida <br></br> que apoya y sostiene al comercio local? </h2>
+                    <h2>¿Queres ser parte de nuestra comunidad? </h2>
                     <a target="_blanck" href="https://docs.google.com/forms/d/e/1FAIpQLSe-_inJG92ILIe4vSNrIMrNi6p7FFbwN-0ULk2HZDVXdNjxaw/viewform?usp=sf_link" >
                         <Button >
                             ¡Sumate a la Cámara!

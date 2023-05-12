@@ -35,7 +35,7 @@ function Beneficios() {
                 </Card>
                 <Card>
                     <CardContent sx={{bgcolor:"#00316e", color:"white"}}>
-                        <Typography>Capacitaciones</Typography>
+                        <Typography>Servicios de Laboratorio</Typography>
                     </CardContent>
                     <CardMedia
                         component={"img"}
@@ -47,7 +47,7 @@ function Beneficios() {
                 </Card>
                 <Card>
                     <CardContent sx={{bgcolor:"#00316e", color:"white"}}>
-                        <Typography>Descuentos</Typography>
+                        <Typography>Capacitaciones</Typography>
                     </CardContent>
                     <CardMedia
                         component={"img"}
