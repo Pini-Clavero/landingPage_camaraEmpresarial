@@ -9,6 +9,7 @@ import Section3 from "./components/Section3";
 import Beneficios from "./components/Beneficios";
 import MovilAcordeon from "./components/MovilAcordeon";
 import Interesar from "./components/Interesar";
+import Copyright from "./components/Copyright"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Beneficios/>
       <MovilAcordeon/>
       <Interesar/>
+      <Copyright/>
     </div>
   );
 }
