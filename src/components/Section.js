@@ -10,9 +10,7 @@ function Section() {
             </div>
             <div className="section-content">
                 <div className="section-text">
-                    
-                        <iframe id="section-video" width="560" height="315" src="https://www.youtube.com/embed/fLkB7kc2uTI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    
+                        <iframe id="section-video" width="560" height="315" src="https://www.youtube.com/embed/5f5bKeUVa4I" title="Entrevista a MARIO TANGORRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>
                         La Cámara nace en el año 1950, luego de celebrarse una asamblea general producto de la sinergia entre comerciantes, industriales
                         y vecinos de la ciudad.<br></br>

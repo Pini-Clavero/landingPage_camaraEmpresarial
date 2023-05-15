@@ -11,8 +11,8 @@ function Section3() {
             </div>
             <div className="section-content">
                 <div className="section-text">
-                <iframe id="section-video" width="560" height="315" src="https://www.youtube.com/embed/F1Sms-5A8u8?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <p>Las empresas y comercios de nuestra ciudad son una parte fundamental de la economía local. Estas
+                <iframe id="section-video" width="560" height="315" src="https://www.youtube.com/embed/U6X2mAC5D3E" title="EL LEÑERITO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Las empresas y comercios de nuestra ciudad son una parte fundamental de la economía local. Estas
                         nos brindan una amplia gama de productos y servicios a la comunidad, desde alimentos y vestimenta
                         hasta servicios financieros y profesionales.<br></br>
                         Además de generar empleo y contribuir al desarrollo económico, también desempeñan un papel
@@ -46,7 +46,7 @@ function Section3() {
                             <CardMedia
                                 component={"img"}
                                 height="150"
-                                src="https://media.licdn.com/dms/image/C4D0BAQGPTvsuC7oHog/company-logo_200_200/0/1579879290840?e=2147483647&v=beta&t=QiuRGw8qEnMu7vEcovhB1w9wKAn6YJMg88jHT-Tnon0"
+                                src="/imagenes/morixe.jpg"
                                 alt="Morixe"
                                 border="3px"
                                 sx={{ borderColor: "#00316e", p:"3px" }}

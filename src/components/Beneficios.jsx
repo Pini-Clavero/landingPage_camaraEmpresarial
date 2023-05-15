@@ -23,7 +23,7 @@ function Beneficios() {
                 >
                 <Card>
                     <CardContent sx={{bgcolor:"#00316e", color:"white"}} >
-                        <Typography>Salón de eventos</Typography>
+                        <Typography>Descuentos en salón de evento</Typography>
                     </CardContent>
                     <CardMedia
                         component={"img"}
@@ -35,7 +35,7 @@ function Beneficios() {
                 </Card>
                 <Card>
                     <CardContent sx={{bgcolor:"#00316e", color:"white"}}>
-                        <Typography>Servicios de Laboratorio</Typography>
+                        <Typography>Laboratorio de análisis veterinarios y de cereales</Typography>
                     </CardContent>
                     <CardMedia
                         component={"img"}
@@ -47,7 +47,7 @@ function Beneficios() {
                 </Card>
                 <Card>
                     <CardContent sx={{bgcolor:"#00316e", color:"white"}}>
-                        <Typography>Capacitaciones</Typography>
+                        <Typography>Talleres y capacitaciones</Typography>
                     </CardContent>
                     <CardMedia
                         component={"img"}
