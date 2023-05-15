@@ -37,7 +37,7 @@ function Section3() {
                     direction="row"
                     justifyContent="center"
                     alignItems="center"
-                    spacing={4}>
+                    spacing={1}>
                     <Card>
                         <Link href="https://morixe.com.ar/"
                             target="_blank"
@@ -48,7 +48,7 @@ function Section3() {
                                 height="150"
                                 src="/imagenes/morixe.jpg"
                                 alt="Morixe"
-                                border="3px"
+                                border="2px"
                                 sx={{ borderColor: "#00316e", p:"3px" }}
                             />
                         </Link>
@@ -62,7 +62,7 @@ function Section3() {
                                 height="150"
                                 src="https://cebadacervecera.com.ar/wp-content/uploads/2022/06/LOGO-CAMPOAMOR-300-300-300x300.jpg"
                                 alt="Campoamos Hnos."
-                                border="3px"
+                                border="2px"
                                 sx={{ borderColor: "#00316e", p:"3px" }}
                             />
                         </Link>
@@ -75,7 +75,7 @@ function Section3() {
                                 component={"img"}
                                 src="https://www.supermercadoacuario.com.ar/app/branding/acuario/logo.png"
                                 alt="Supermercado Acuario"
-                                border="3px"
+                                border="2px"
                                 sx={{ borderColor: "#00316e", width:"150px", height:"150px", objectFit: "contain" }}
                             />
                         </Link>
@@ -89,7 +89,7 @@ function Section3() {
                                 height="150"
                                 src="/logos/jugos_el_leñerito.png"
                                 alt="El Leñerito"
-                                border="3px"
+                                border="2px"
                                 sx={{ borderColor: "#00316e", p:"3px" }}
                             />
                         </Link>

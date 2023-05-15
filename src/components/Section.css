@@ -54,15 +54,22 @@
 }
 
 .section-text #section-video {
-  float: right;
+  
   margin: 20px;
 
 }
+
 
 @media (max-width: 600px) {
   .section {
     display: none;
   }
-  
-  
+}
+
+@media (min-width: 900px) {
+  .section-text #section-video {
+    float: right;
+    
+
+  }
 }
