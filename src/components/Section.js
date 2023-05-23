@@ -34,8 +34,7 @@ function Section() {
                         septiembre de 1950.<br></br>
                         Vimos pasar mucha historia por estas calles; en esta etapa de nuevos desafíos nos toca escribir con el objetivo claro y simple: la
                         Cámara Empresaria se compromete a asistirlos y asistirlas en cada paso del camino.<br></br>
-                        <strong style={{ textAlign: 'center' }}>Nos encantaría verte formar parte de nuestra comunidad de la Cámara</strong>
-                        <strong style={{ textAlign: 'center' }}>¡Juntos podemos hacer realidad nuestros objetivos!</strong></p>
+                        </p>
 
                 </div>
 

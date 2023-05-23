@@ -40,13 +40,13 @@ function Interesar() {
                             </Link>
                         </Card>
                         <Card>
-                            <Link href="https://www.febaweb.org.ar/"
+                            <Link href="https://feba.org.ar/"
                                 target="_blank"
                                 samesite="None" secure="true">
                                 <CardMedia
                                     component={"img"}
                                     height="100"
-                                    src="https://www.febaweb.org.ar/images/logo.png"
+                                    src="/imagenes/feba.jpg"
                                     alt="Federación Economica de la Provincia de Buenos Aires"
                                     border="3px"
                                     sx={{ borderColor: "#66666675", p: "3px" }}
