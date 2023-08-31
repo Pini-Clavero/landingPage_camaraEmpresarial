@@ -87,7 +87,7 @@ function Section3() {
                             <CardMedia
                                 component={"img"}
                                 height="150"
-                                src="/logos/jugos_el_leñerito.png"
+                                src="/imagenes/jugos_el_leñerito.png"
                                 alt="El Leñerito"
                                 border="2px"
                                 sx={{ borderColor: "#00316e", p:"3px" }}
