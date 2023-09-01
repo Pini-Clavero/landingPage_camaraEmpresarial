@@ -22,7 +22,7 @@ function Section3() {
 
                         Presentamos a las empresas y negocios que decidieron unirse a la Cámara, una organización que
                         representa los intereses de los negocios locales y trabaja para promover el crecimiento y desarrollo.<br></br>
-                        Al asociarse podrán aprovechar los beneficios de la Cámara, las capacitaciónes, cursos y talleres
+                        Al asociarse podrán aprovechar los beneficios de la Cámara, las capacitaciones, cursos y talleres
                         empresariales, la representación en el ámbito local ante problemáticas que atañen a nuestra
                         producción, requerimientos y necesidades comerciales.<br></br>
                         Gracias por su dedicación y compromiso con la creación de empleos y la generación de
@@ -87,7 +87,7 @@ function Section3() {
                             <CardMedia
                                 component={"img"}
                                 height="150"
-                                src="/imagenes/jugos_el_leñerito.png"
+                                src="/imagenes/jugos_el_lenerito.png"
                                 alt="El Leñerito"
                                 border="2px"
                                 sx={{ borderColor: "#00316e", p:"3px" }}
