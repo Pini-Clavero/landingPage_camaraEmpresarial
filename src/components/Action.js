@@ -12,7 +12,7 @@ function Action() {
                 <div className="videoEmpresa"><video src={videoPortada} autoPlay muted loop></video></div>
                 <div className="cta">
                     <h2>¿Queres ser parte de nuestra comunidad? </h2>
-                    <a target="_blanck" href="https://forms.office.com/Pages/ShareFormPage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__cib3B9UNVhMRE5VNjFTRU9ZNlJZSVNFMjhOREs2Vy4u&sharetoken=30CdbqWbTm0ZO2BDPvUE" >
+                    <a target="_blanck" href="https://docs.google.com/forms/d/e/1FAIpQLSdNmkKPjdr9D-f2fnsSF8XnuifB4QSyYF9yMX0COjApWI-V4g/viewform?usp=sf_link" >
                         <Button >
                             ¡Sumate a la Cámara!
                         </Button>
